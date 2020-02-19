@@ -1,0 +1,40 @@
+* {
+    normal-background: #e6e6e6;
+    normal-foreground: #191919;
+
+    active-background: @normal-background;
+    active-foreground: #98971a;
+
+    selected-background: @normal-background;
+    selected-foreground: #fb7e14;
+
+    background-color: @normal-background;
+    color:            @normal-foreground;
+    border-color:     @normal-background;
+    border: 1;
+
+    font: "Iosevka 10";
+    padding: 5;
+}
+
+window {
+    fullscreen: true;
+    padding:    20%;
+}
+
+element selected {
+    border-color: @selected-foreground;
+    background-color: @selected-background;
+    color: @selected-foreground;
+}
+
+element active {
+    background-color: @active-background;
+    color: @active-foreground;
+}
+
+element selected active {
+    border-color: @active-foreground;
+    color: @active-foreground;
+    background-color: @selected-background; 
+}
