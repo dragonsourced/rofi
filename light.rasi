@@ -1,12 +1,12 @@
 * {
-    normal-background: #e6e6e6;
+    normal-background: #f5f5f5;
     normal-foreground: #191919;
 
     active-background: @normal-background;
     active-foreground: #98971a;
 
     selected-background: @normal-background;
-    selected-foreground: #fb7e14;
+    selected-foreground: @normal-foreground;
 
     background-color: @normal-background;
     color:            @normal-foreground;

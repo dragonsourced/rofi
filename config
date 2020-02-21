@@ -1,7 +1,7 @@
 rofi.display-drun:  Launch application
 rofi.display-run:   Run command
 rofi.modi:          run,drun
-rofi.theme:         dark.rasi
+rofi.theme:         light.rasi
 rofi.terminal:      /usr/local/bin/st
 rofi.scroll-method: 1
 
@@ -106,7 +106,7 @@ rofi.scroll-method: 1
 ! "Indicate how it match by underlining it." Set from: Default
 ! rofi.show-match:                     true
 ! "New style theme file" Set from: Default
-! rofi.theme:         dark.rasi
+! rofi.theme:         light.rasi
 ! "Color scheme for normal row" Set from: Default
 ! rofi.color-normal:                   
 ! "Color scheme for urgent row" Set from: Default
