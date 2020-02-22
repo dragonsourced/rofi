@@ -13,7 +13,7 @@
     border-color:     @normal-background;
     border: 1;
 
-    font: "Iosevka 10";
+    font: "Charter 10";
     padding: 5;
 }
 
