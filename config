@@ -1,6 +1,6 @@
 rofi.display-drun:  Launch application
 rofi.display-run:   Run command
-rofi.modi:          run,drun
+rofi.modi:          run,drun,window
 rofi.theme:         light.rasi
 rofi.terminal:      /usr/local/bin/st
 rofi.scroll-method: 1
